@@ -13,7 +13,7 @@ public class Teacher {
   }
 
   // 输入正数，学生加分，输入负数，学生减分
-  public void changeScore(int number) {
+  public void addScore(int number) {
     student.score = student.score + number;
   }
 }

@@ -10,8 +10,8 @@ public class Application {
     System.out.println("====== before scores operation =======");
     System.out.printf("%s\n%s\n%s\n%s\n", Cindy, Mary, Solider, Bob);
 
-    Solider.changeScore(5);
-    Bob.changeScore(5);
+    Solider.addScore(5);
+    Bob.addScore(5);
 
     System.out.println("====== after scores operation =======");
     System.out.printf("%s\n%s\n%s\n%s\n", Cindy, Mary, Solider, Bob);
